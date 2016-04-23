@@ -84,8 +84,8 @@ image:
 tags:
   - C++
   - Graphics
-extra_resources:
+extra_resources: # Links to additional or extra resources
   - 
-connections: # 
+connections: # Repository names of each parent connection
   - "normal-mapping-tutorial"
 ```
