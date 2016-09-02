@@ -71,6 +71,7 @@ The flow of contribution for new tutorials to Atlas will be as follows:
 _Sample igme\_config.yml_
 
 ```yaml
+series: Introduction to Graphics
 title: Skybox
 author:
   name: IGME-RIT
@@ -78,14 +79,13 @@ author:
   github: igme-rit
 description: This example demonstrates rendering a skybox.
 language: C++
-image:
-  icon: https://cloud.githubusercontent.com/assets/10502938/13506660/28be0300-e14d-11e5-90e3-b194f14e52bd.PNG
-  banner: https://cloud.githubusercontent.com/assets/10502938/13506660/28be0300-e14d-11e5-90e3-b194f14e52bd.PNG
 tags:
   - C++
   - Graphics
 extra_resources: # Links to additional or extra resources
-  - 
+  - title: Unity engine Skybox
+    link: https://docs.unity3d.com/Manual/class-Skybox.html
 connections: # Repository names of each parent connection
-  - "normal-mapping-tutorial"
+  - series: Introduction to Graphics
+    title: normal-mapping-tutorial
 ```
