@@ -80,12 +80,11 @@ author:
 description: This example demonstrates rendering a skybox.
 language: C++
 tags:
-  - C++
   - Graphics
 extra_resources: # Links to additional or extra resources
   - title: Unity engine Skybox
     link: https://docs.unity3d.com/Manual/class-Skybox.html
 connections: # Repository names of each parent connection
   - series: Introduction to Graphics
-    title: normal-mapping-tutorial
+    title: Normal Mapping Tutorial
 ```
